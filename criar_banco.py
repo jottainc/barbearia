@@ -6,7 +6,7 @@ with app.app_context (): #// "Execute tudo que vem em baixo dentro do ambiente d
     
     db.create_all ()   #// Serve para criar a tabela de dados de verdade, é como se fosse eu pegar a planta de uma casa e criar ela de verdade  
     
-    print ("Tudo certo meu irmão jottahv, Banco criado com sucesso ")
+    print ("Banco criado com sucesso")
     
 
     
