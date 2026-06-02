@@ -2,7 +2,7 @@ from app import db #// "De 'app' importa o objeto que vai se conectar com o banc
 
 from datetime import datetime
 
-class Agendamento (db.Model):  #// Cada agendamento da academia vai ser guardado aqui 
+class Agendamento (db.Model):  #// Cada agendamento da barbearia vai ser guardado aqui 
 
     id = db.Column(db.Integer, primary_key=True) #// Um numero unico para cada agendamento (o 'primaryKey' Garante que nunca vai repetir )
 
